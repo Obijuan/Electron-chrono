@@ -14,7 +14,7 @@ electron.app.once('ready', () => {
     //-- Initial window size
     width: 300,
     height: 140,
-    resizable: false,
+    //resizable: false,
 
     backgroundColor: "#111",
 
