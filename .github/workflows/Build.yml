@@ -1,0 +1,14 @@
+# Build the Linux package
+
+name: Build/Release
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:    
+    runs-on: ubuntu-20.04
+    
+    steps:
+      - name: Check out Git repository
+        uses: actions/checkout@v1
